@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f76a3833b.js" crossorigin="anonymous"></script>    
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/animaciones.js" defer></script>
+    <title>Enciptador </title>
+</head>
+<body >
+    <header class="logo"> 
+        <img src="img/Vectora.png" alt="Logo de Alura" class="alura">
+        <button id="switch" class="switch">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+    </header>
+    <main>
+        <section class="textoa">
+            <textarea name="textArea" class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="box">
+                <p class="heading"> Numeros de caracteres:  </p>
+                <p class="ch"></p>
+                <p class="heading heading--word"> Numeros de palabras: </p>
+                <p class="wd"></p>
+            </div>
+            <div>
+                <label class="inf"> <label class="signo">!</label> Solo letras minusculas y sin acentos</label>
+            </div>
+            <div class="botones">   
+                <button class="btnEn" onclick="btnEncrip()" name="Encri">Enciptador</button>
+                <button class="btnDe" onclick="btnDese()" name="Desen">Desencriptador</button>
+            </div>
+        </section>  
+        <section>
+            <img src="img/Muñeco.png" alt="Personaje buscando" class="nohay_per">
+            <img src="img/Frame 5.png" alt="Texto no encontrado" class="nohay_text">
+            <textarea name="mensaje" class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div> 
+        </section>
+    </main>
+    <footer class="pie">
+        <p> Alumno de Alura LATAM .com</p>
+        <div class="imagenes">
+            <img src="img/github.png" alt="Programacion">
+            <img src="img/logo-aluraespanhol.svg" alt="Programacion">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ex dolor molestias iste voluptates, sapiente ad fugit maxime ipsum dolores reiciendis nulla ullam iusto asperiores, aliquam nam repellat sequi quod!</p>
+        <p >&#169; Todos lo derechos reservados por Edgar Gomez</p>
+    </footer>
+</body>
+</html>
